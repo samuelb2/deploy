@@ -31,4 +31,6 @@ wget https://github.com/samuelb2/deploy/raw/master/chef.tar.gz
 # xtract ze files
 tar -xzf chef.tar.gz
 
+cd chef
+
 sh ./run-chef.sh $1 $2 $3 $4
