@@ -189,9 +189,9 @@ bash 'set sickbeard config' do
   EOH
 end
 
-service 'sickbeard' do
-  action :start
-end
+# service 'sickbeard' do
+#   action :start
+# end
 
 # INSTALL HEADPHONES
 git '/opt/headphones' do
