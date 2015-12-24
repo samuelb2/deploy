@@ -171,9 +171,9 @@ bash 'set sickbeard to start on boot' do
   not_if { ::File.exists?('/etc/init.d/sickbeard') }
 end
 
-service 'sickbeard' do
-  action :start
-end
+#service 'sickbeard' do
+#  action :start
+#end
 
 service 'sickbeard' do
   action :stop
