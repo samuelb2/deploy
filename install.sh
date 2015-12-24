@@ -11,7 +11,7 @@ if [ $# -ne 4 ]; then
     echo " "
     echo "Usage:"
     echo " "
-    echo "    wget -qO- https://raw.githubusercontent.com/seedbox/deploy/master/install.sh | sh -s USERNAME PASSWORD SERVER_IP BANDWITH_LIMIT"
+    echo "    wget -qO- https://raw.githubusercontent.com/samuelb2/deploy/master/install.sh | sh -s USERNAME PASSWORD SERVER_IP BANDWITH_LIMIT"
     echo " "
     exit 1
 fi
@@ -26,7 +26,7 @@ echo " "
 echo " "
 
 # Get all the files for chef & run it
-wget https://github.com/seedbox/deploy/raw/master/chef.tar.gz
+wget https://github.com/samuelb2/deploy/raw/master/chef.tar.gz
 
 # xtract ze files
 tar -xzf chef.tar.gz
